@@ -7,6 +7,8 @@
 
 :root{
     --color-primary: rgb(0, 102, 255);
+    --color-secondary: #99ccff;
+    --color-terziary: #9966ff;
     --color-background: white
 }
 
@@ -18,9 +20,17 @@ nav{
     padding: 20px;
 }
 
+main{
+    margin-top: 60px;
+}
+
 .container{
     width: 100%;
     margin: auto;
+}
+
+main.container{
+    margin: 0 -5;
 }
 
 .nav-con{
@@ -58,3 +68,26 @@ nav{
     display: flex;
     align-items: center;
 }
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: var(--color-secondary);
+    border-radius: 100px;
+    padding: 20px;
+    flex-basis:100%;
+    margin: 5px
+}
+
+.large{
+    display: flex;
+    flex-direction: column;
+}
+
+.background-purple{
+    background-color: var(--color-terziary);
+}
+
