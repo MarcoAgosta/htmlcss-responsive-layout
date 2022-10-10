@@ -1,0 +1,21 @@
+@media screen and (min-width: 480px){
+
+}
+
+@media screen and (min-width: 920px){
+   .container{
+    max-width: 920px;
+   }
+   
+   .barre{
+    display: none;
+   }
+
+   .nav-icons a{
+    display: block;
+   }
+
+   .nav-icons button{
+    display: block;
+   }
+}
