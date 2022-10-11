@@ -29,6 +29,14 @@
         margin-right: 5%;
     }
 
+    .relative img{
+        width: 100%;
+    }
+
+    .fa-quote-left{
+        font-size: 250%;
+    }
+
 }
 
 @media screen and (min-width: 920px){
