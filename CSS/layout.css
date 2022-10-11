@@ -20,6 +20,15 @@
         font-size: 3rem;
     }
 
+    .utente{
+        text-align: left;
+    }
+
+    .utente img{
+        width: 30%;
+        margin-right: 5%;
+    }
+
 }
 
 @media screen and (min-width: 920px){
