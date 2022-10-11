@@ -8,7 +8,7 @@
 :root{
     --color-primary: rgb(0, 102, 255);
     --color-secondary: #99ccff;
-    --color-terziary: #9966ff;
+    --color-terziary: #9593E6;
     --color-background: white
 }
 
@@ -169,6 +169,50 @@ footer{
     height: 50%;
     width: 275px;
     left: 15%;
+}
+
+.purple img{
+    display: block;
+    width: 100%;
+}
+
+.purple h1{
+    color: var(--color-background);
+    margin: 4rem 0;
+}
+
+.purple p{
+    color: var(--color-background);
+    line-height: 2rem;
+}
+
+.planning{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.planning h3{
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.planning p{
+    color: black;
+    text-align: center;
+    font-style: italic;
+}
+
+.planning button{
+    border: none;
+    border-radius: 100%;
+    padding: 1rem;
+    width: 3.1rem;
+    margin: 1rem 0;
+}
+
+button i{
+    font-size: 1.1rem;
 }
 
 .utente{

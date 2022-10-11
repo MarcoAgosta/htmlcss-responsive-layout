@@ -16,6 +16,10 @@
         flex-direction: row;
     }
 
+    .purple h1{
+        font-size: 3rem;
+    }
+
 }
 
 @media screen and (min-width: 920px){
@@ -63,4 +67,11 @@
     height: 70%;
    }
 
+   .plan{
+    align-items: flex-end;
+   }
+
+   .planning img{
+    width: 70%;
+   }
 }
